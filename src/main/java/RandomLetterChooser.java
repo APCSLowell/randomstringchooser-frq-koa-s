@@ -1,13 +1,14 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	
+	private String[] arr;
+	private ArrayList<String> bList;
 	public RandomLetterChooser(String str)
 	{ 
-		aList = new ArrayList<Character>();
-		list = getSingleLetters(str);
-		for(int i = 0; i<list.length(); i++)
+		bList = new ArrayList<Character>();
+		arr = getSingleLetters(str);
+		for(int i = 0; i<arr.length(); i++)
 			{
-				aList.add(list[i]);
+				bList.add(arr[i]);
 			}
 		
 	}
