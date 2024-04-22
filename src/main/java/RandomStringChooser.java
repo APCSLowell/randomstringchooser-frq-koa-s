@@ -17,9 +17,9 @@ public class RandomStringChooser
     {
       return "NONE";
     }
-    int num = (int)(Math.random()*aList.size())
+    int num = (int)(Math.random()*aList.size());
     String sString = aList.get(num);
-    aList.remove(num)
+    aList.remove(num);
       return sString;
   }
   
