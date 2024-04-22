@@ -1,7 +1,7 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	private String[] arr;
-	private ArrayList<String> bList;
+	private char[] arr;
+	private ArrayList<Character> bList;
 	public RandomLetterChooser(String str)
 	{ 
 		bList = new ArrayList<Character>();
